@@ -29,10 +29,10 @@ name = "Helpster 🤖"
 default_collapse_content = true
 
 # The default value for the expand messages settings.
-default_expand_messages = false
+default_expand_messages = true
 
 # Hide the chain of thought details from the user in the UI.
-hide_cot = false
+hide_cot = true
 
 # Link to your github repo. This will add a github button in the UI's header.
 # github = ""
@@ -43,7 +43,7 @@ hide_cot = false
     #paper = "#FFFFFF"
 
     [UI.theme.light.primary]
-        #main = "#F80061"
+        #main = "#E06926"
         #dark = "#980039"
         #light = "#FFE7EB"
 
@@ -53,7 +53,7 @@ hide_cot = false
     #paper = "#FFFFFF"
 
     [UI.theme.dark.primary]
-        #main = "#F80061"
+        #main = "#E06926"
         #dark = "#980039"
         #light = "#FFE7EB"
 

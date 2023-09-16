@@ -3,7 +3,7 @@ from langchain.prompts import (
     PromptTemplate,
 )
 from langchain.chains import ConversationalRetrievalChain
-from langchain.memory import ConversationSummaryBufferMemory
+from langchain.memory import ConversationBufferWindowMemory
 from langchain.vectorstores import Pinecone
 from langchain.embeddings import OpenAIEmbeddings
 
@@ -28,8 +28,8 @@ prompt = PromptTemplate(
     input_variables=["context", "chat_history", "question"], template=template
 )
 
-memory = ConversationSummaryBufferMemory(
-    memory_key="chat_history", return_messages=True, max_token_limit=10, llm=llm
+memory = ConversationBufferWindowMemory(
+    memory_key="chat_history", return_messages=True, k=3
 )
 
 embedding = OpenAIEmbeddings()
