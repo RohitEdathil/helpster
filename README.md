@@ -10,6 +10,9 @@ Built using:
 - [ChainLit](https://github.com/Chainlit/chainlit)
 - [Pinecone](https://www.pinecone.io/)
 
+<img src="https://github.com/RohitEdathil/helpster/blob/main/img/ss1.jpg?raw=true" width="700px">
+<img src="https://github.com/RohitEdathil/helpster/blob/main/img/ss2.jpg?raw=true" width="700px">
+
 ## Setup
 
 Clone the repository
@@ -111,9 +114,3 @@ From OpenAI's privacy policy we can see that data from API Platform is **not use
 Read more about SOC 2 Type 2 [here](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report).
 
 Hence we can conclude there **won't be any data leaks** (user information presented to other users).
-
-<!-- TODO: Deploy -->
-<!-- TODO: Screenshots -->
-<!-- TODO: Demo docs -->
-<!-- TODO: Process docs -->
-<!-- TODO: Final docs -->
