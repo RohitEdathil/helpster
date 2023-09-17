@@ -44,7 +44,7 @@ vectordb = Pinecone(
 
 chain = ConversationalRetrievalChain.from_llm(
     llm=llm,
-    retriever=vectordb.as_retriever(),
+    retriever=vectordb.as_retriever(search_kwargs={"k": 1}),
     memory=memory,
     combine_docs_chain_kwargs={"prompt": prompt},
 )
