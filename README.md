@@ -111,3 +111,9 @@ From OpenAI's privacy policy we can see that data from API Platform is **not use
 Read more about SOC 2 Type 2 [here](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report).
 
 Hence we can conclude there **won't be any data leaks** (user information presented to other users).
+
+<!-- TODO: Deploy -->
+<!-- TODO: Screenshots -->
+<!-- TODO: Demo docs -->
+<!-- TODO: Process docs -->
+<!-- TODO: Final docs -->
