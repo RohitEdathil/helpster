@@ -1,6 +1,6 @@
 # Helpster
 
-Helpster is an LLM based bot made as an entry to **Inquiry Bot Challange** by IEEE CS KS. It can answer questions related to AICSSYC 23, previous AICSSYC's, IEEE CS KS, , IEEE CS, IEEE, and other general questions.
+Helpster one of the entries that won **Inquiry Bot Challange** by IEEE CS KS. It is an LLM-based chat bot that can answer questions related to AICSSYC 23, previous AICSSYC's, IEEE CS KS,  IEEE CS, IEEE, and other related questions.
 
 Built using:
 
